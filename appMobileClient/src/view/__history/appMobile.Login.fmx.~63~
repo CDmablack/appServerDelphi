@@ -1,0 +1,276 @@
+object frmLogin: TfrmLogin
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  ClientHeight = 480
+  ClientWidth = 300
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object TabControl: TTabControl
+    Align = Client
+    Size.Width = 300.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 0
+    TabOrder = 1
+    TabPosition = Dots
+    Sizes = (
+      300s
+      480s
+      300s
+      480s)
+    object TabLogin: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'tabitemcustom'
+      TabOrder = 0
+      ExplicitSize.cx = 150.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object LyButtom: TLayout
+        Align = Bottom
+        Position.Y = 430.000000000000000000
+        Size.Width = 300.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object RcButtom: TRectangle
+          Align = Client
+          ClipParent = True
+          Size.Width = 300.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+        end
+      end
+      object LyTop: TLayout
+        Align = Top
+        Size.Width = 300.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object RcTop: TRectangle
+          Align = Client
+          HitTest = False
+          Size.Width = 300.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object Image1: TImage
+            MultiResBitmap.Height = 32
+            MultiResBitmap.Width = 32
+            MultiResBitmap = <
+              item
+                Width = 32
+                Height = 32
+                PNG = {
+                  89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+                  F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                  03D8494441545847BD976D688D6118C79D33D3D886B00FDBC8C4B469E535C328
+                  B1A548F1414943525293F6C13E216A28C507E58B970F94F830E583892C2214D9
+                  C246C26CB4DA1BED7D66B6738EDFF5ECBAD7B3D9739EE7EC9CDC759DFBBEEEFB
+                  BAFEFFFFFDF2DCCF737C13C2945028E4C30AB0ED84E561A95832D68C7DF2F97C
+                  E55819267E6C0BA4EB03814015F570C1EFC61AB141D349BB072B0D06839363A6
+                  00B0124342FD02BF109B6908208FC3CF65EC3CD62B62A85FD3971EB508408E29
+                  6037ED9D06506688E560ABED44B4D3207FA4395FF0678C5B04C95B000B629DB4
+                  970A10F55CC0AFC9528FDA8E6AC676E9398967BC4C453C1C97009205E4B38000
+                  BC55C937D0D7AEC0EDB4CBB15BD85BDB19B8417B223685FE6AEDDF16B1084877
+                  2B51B924D3CE02B04B57E49410D841895FC3D857CD39A739F92AA032620180DD
+                  D1D91748B2CC56FDA34E60889843DC0F39B0B4B335EF838AC87079C4D792238F
+                  F65091A596C74CB6828154DA52BEC9F2860322F688AEC219C539ABC2F78E95C7
+                  583EB8CF35A7C9AF7B9DE8F7FBA7D3FECEA53240BD0C5FC61EE00FBA2CE73D1D
+                  5F2135F1B5EA8F7824119A29C48C55009D875F43EC1E4B006596FC30F0537DF3
+                  CCB7B8900BA1B9052D0C8A85C10C8D6F75E2EF33C4B477D05E8255580200F1E9
+                  4A84D4B7FA09B07C9762621630C30AC04F68BC85690A14A58CAD52E2DBF8418B
+                  C30DDDC3780FCBD9087032968F2D56F11FEDB9F4F761AF0CB1198B5A809C112C
+                  0BC0F9C698693A7D97ED0210B989157AC958A531FC8B510BD0D9764358678C99
+                  368EB1728BE8CFA57FB9CD56CAEB36017517183C402D27BE1B9B849F88FF9B76
+                  9F876D181D12A0A3068C1244559941F0A6E2C7D9823B7D2CC3A551E4E3E0FB27
+                  251ECC2408DB20CCA6DDEA08CA0A7420E297DC6AB160160C30FD605ED70BA950
+                  FAC02FA2AF4FF69DF66CFB219C86D382CA063701002661196E7172D2B1371A67
+                  EE833AFC3FF0148151AB42D23D1F42924EA2BC03907A92DFD35EE826C43E0EF1
+                  7D44CD23EF34FDFD2AE4B12C977CCDD487032349BE0B254EDE8EEFB4FDCC25A7
+                  58B7A078749C7CB460C7B1624F0220955B4CBE1364F9647F5BE50D282F2E2711
+                  02EE2460C4CA78594679BEF5701DD4473605BF415F5C5E201C63BC9E819B203C
+                  65DF72B04388E887FC7054CC9AEC4900A4FDC46F84F889E441BE99BEBBFF4D80
+                  92CAED264F8108688B05B960785A8158918D8513A98066B621C0E976BE5A2354
+                  1B91007DB9643ABCED22A41E0AF733A376EA14EAE1BF5E4E48EC7D0FE4612F2D
+                  93CB2A595FC994B0E745DE865701DD8F805E825DBF013D4E3301CC3430BBE463
+                  857693631E41C988B882B5C9CD158B02D6807CF580BDCE4DF05F488B9FB56E60
+                  A31F0000000049454E44AE426082}
+                FileName = 'C:\appMobileClient02\Imgs\padlock.png'
+              end>
+            Align = Right
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Position.X = 245.000000000000000000
+            Position.Y = 5.000000000000000000
+            Size.Width = 50.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+        object LbTitle: TLabel
+          Align = Center
+          StyledSettings = [Family]
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.HorzAlign = Center
+          TabOrder = 0
+        end
+      end
+      object LyBody: TLayout
+        Align = Client
+        Size.Width = 300.000000000000000000
+        Size.Height = 380.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object LyCenter: TLayout
+          Align = Center
+          Size.Width = 300.000000000000000000
+          Size.Height = 380.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object RcBody: TRectangle
+            Align = Client
+            Size.Width = 300.000000000000000000
+            Size.Height = 380.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Kind = None
+            object LyTopBody: TLayout
+              Align = Top
+              Size.Width = 300.000000000000000000
+              Size.Height = 50.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 0
+            end
+            object LyEdtLogin: TLayout
+              Align = Top
+              Margins.Left = 20.000000000000000000
+              Margins.Top = 20.000000000000000000
+              Margins.Right = 20.000000000000000000
+              Position.X = 20.000000000000000000
+              Position.Y = 70.000000000000000000
+              Size.Width = 260.000000000000000000
+              Size.Height = 50.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 1
+              object RcEdtLogin: TRectangle
+                Align = Client
+                Size.Width = 260.000000000000000000
+                Size.Height = 50.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object RcLineEdtLogin: TRectangle
+                  Align = Bottom
+                  Position.Y = 48.000000000000000000
+                  Size.Width = 260.000000000000000000
+                  Size.Height = 2.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+                object EdtLogin: TEdit
+                  Touch.InteractiveGestures = [LongTap, DoubleTap]
+                  Align = Client
+                  StyleLookup = 'transparentedit'
+                  TabOrder = 1
+                  TextSettings.Font.Size = 16.000000000000000000
+                  TextSettings.VertAlign = Trailing
+                  Size.Width = 260.000000000000000000
+                  Size.Height = 48.000000000000000000
+                  Size.PlatformDefault = False
+                  StyledSettings = [Family, Style, FontColor]
+                  Caret.Color = claWhite
+                end
+              end
+            end
+            object LyEdtSenha: TLayout
+              Align = Top
+              Margins.Left = 20.000000000000000000
+              Margins.Top = 20.000000000000000000
+              Margins.Right = 20.000000000000000000
+              Position.X = 20.000000000000000000
+              Position.Y = 140.000000000000000000
+              Size.Width = 260.000000000000000000
+              Size.Height = 50.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 2
+              object RcEdtSenha: TRectangle
+                Align = Client
+                Size.Width = 260.000000000000000000
+                Size.Height = 50.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object RcLineEdtSenha: TRectangle
+                  Align = Bottom
+                  Position.Y = 48.000000000000000000
+                  Size.Width = 260.000000000000000000
+                  Size.Height = 2.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+                object EdtSenha: TEdit
+                  Touch.InteractiveGestures = [LongTap, DoubleTap]
+                  Align = Client
+                  StyleLookup = 'transparentedit'
+                  TabOrder = 1
+                  CanParentFocus = True
+                  Password = True
+                  TextSettings.Font.Size = 16.000000000000000000
+                  TextSettings.VertAlign = Trailing
+                  Size.Width = 260.000000000000000000
+                  Size.Height = 48.000000000000000000
+                  Size.PlatformDefault = False
+                  StyledSettings = [Family, Style, FontColor]
+                end
+              end
+            end
+            object LyBtnEntrar: TLayout
+              Align = Top
+              Margins.Left = 70.000000000000000000
+              Margins.Top = 70.000000000000000000
+              Margins.Right = 70.000000000000000000
+              Position.X = 70.000000000000000000
+              Position.Y = 260.000000000000000000
+              Size.Width = 160.000000000000000000
+              Size.Height = 50.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 3
+              object RcBtnEntrar: TRectangle
+                OnTap = RcBtnEntrarTap
+                Align = Client
+                Size.Width = 160.000000000000000000
+                Size.Height = 50.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                OnClick = RcBtnEntrarClick
+              end
+            end
+          end
+        end
+      end
+    end
+    object TabCadastro: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'tabitemstyle'
+      TabOrder = 0
+      ExplicitSize.cx = 150.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+    end
+  end
+end

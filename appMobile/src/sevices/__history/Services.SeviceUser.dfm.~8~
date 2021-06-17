@@ -1,0 +1,29 @@
+object ServiceUser: TServiceUser
+  OldCreateOrder = False
+  Height = 125
+  Width = 359
+  object ConnectionUser: TFDConnection
+    Params.Strings = (
+      'Database=C:\appMobile02\DB\CONTROLLERSERVER.FDB'
+      'User_Name=SYSDBA'
+      'Password=masterkey'
+      'DriverID=FB')
+    Connected = True
+    LoginPrompt = False
+    Left = 40
+    Top = 24
+  end
+  object QryUser: TFDQuery
+    Connection = ConnectionUser
+    SQL.Strings = (
+      'select * from tbl_Users')
+    Left = 112
+    Top = 24
+  end
+  object AppendUser: TFDQuery
+    CachedUpdates = True
+    Connection = ConnectionUser
+    Left = 176
+    Top = 24
+  end
+end

@@ -1,0 +1,78 @@
+inherited frmLogin_SmXhdpiPh: TfrmLogin_SmXhdpiPh
+  ClientHeight = 375
+  ClientWidth = 250
+  DesignerMasterStyle = 3
+  inherited TabControl: TTabControl
+    Size.Width = 250.000000000000000000
+    Size.Height = 375.000000000000000000
+    Sizes = (
+      250s
+      375s
+      250s
+      375s)
+    inherited TabLogin: TTabItem
+      ExplicitSize.cx = 150.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited LyButtom: TLayout
+        Position.Y = 325.000000000000000000
+        Size.Width = 250.000000000000000000
+        inherited RcButtom: TRectangle
+          Size.Width = 250.000000000000000000
+        end
+      end
+      inherited LyClient: TLayout
+        Size.Width = 250.000000000000000000
+        Size.Height = 275.000000000000000000
+        inherited RcBody: TRectangle
+          Size.Width = 250.000000000000000000
+          Size.Height = 275.000000000000000000
+          inherited LyTopBody: TLayout
+            Size.Width = 250.000000000000000000
+          end
+          inherited LyEdtLogin: TLayout
+            Size.Width = 210.000000000000000000
+            inherited RcEdtLogin: TRectangle
+              Size.Width = 210.000000000000000000
+              inherited RcLineEdtLogin: TRectangle
+                Size.Width = 210.000000000000000000
+              end
+              inherited EdtLogin: TEdit
+                Size.Width = 210.000000000000000000
+              end
+            end
+          end
+          inherited LyEdtSenha: TLayout
+            Size.Width = 210.000000000000000000
+            inherited RcEdtSenha: TRectangle
+              Size.Width = 210.000000000000000000
+              inherited RcLineEdtSenha: TRectangle
+                Size.Width = 210.000000000000000000
+              end
+              inherited EdtSenha: TEdit
+                Anchors = [akTop, akRight, akBottom]
+                Opacity = 0.000000000000000000
+                Size.Width = 210.000000000000000000
+              end
+            end
+          end
+          inherited LyBtnEntrar: TLayout
+            Size.Width = 110.000000000000000000
+            inherited RcBtnEntrar: TRectangle
+              Size.Width = 110.000000000000000000
+            end
+          end
+        end
+      end
+      inherited LyTop: TLayout
+        Size.Width = 250.000000000000000000
+        inherited RcTop: TRectangle
+          Size.Width = 250.000000000000000000
+        end
+      end
+    end
+    inherited TabCadastro: TTabItem
+      ExplicitSize.cx = 150.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+    end
+  end
+end

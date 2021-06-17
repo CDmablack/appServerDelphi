@@ -1,0 +1,13 @@
+﻿[]
+Coordinates=85,55,91,36
+
+[TabLogin]
+Coordinates=10,10,69,36
+Visible=True
+
+[TabCadastro]
+Coordinates=89,10,69,36
+
+[TabControl]
+Coordinates=10,56,85,36
+

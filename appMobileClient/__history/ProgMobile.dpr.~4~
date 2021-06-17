@@ -1,0 +1,17 @@
+program ProgMobile;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  appMobile.Login in 'src\view\appMobile.Login.pas' {frmLogin},
+  Style.Login in 'src\style\Style.Login.pas',
+  appMobile.Menu in 'src\view\appMobile.Menu.pas' {frmMenu};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TfrmLogin, frmLogin);
+  Application.CreateForm(TfrmMenu, frmMenu);
+  Application.Run;
+end.

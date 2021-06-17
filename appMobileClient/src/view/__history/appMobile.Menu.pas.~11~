@@ -1,0 +1,64 @@
+unit appMobile.Menu;
+
+interface
+
+uses
+  System.SysUtils,
+  System.Types,
+  System.UITypes,
+  System.Classes,
+  System.Variants,
+  FMX.Types,
+  FMX.Controls,
+  FMX.Forms,
+  FMX.Graphics,
+  FMX.Dialogs,
+  FMX.Controls.Presentation,
+  FMX.StdCtrls,
+  FMX.Objects,
+  FMX.Layouts;
+
+type
+  TfrmMenu = class(TForm)
+    LyButtom: TLayout;
+    RcButtom: TRectangle;
+    LyClient: TLayout;
+    RcBody: TRectangle;
+    LyTop: TLayout;
+    RcTop: TRectangle;
+    LbTitle: TLabel;
+    Image1: TImage;
+    procedure FormShow(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmMenu: TfrmMenu;
+
+implementation
+
+uses
+  Style.Login;
+
+{$R *.fmx}
+
+procedure TfrmMenu.FormShow(Sender: TObject);
+var
+   Styles : TStyleLogin;
+begin
+     // Background...
+  RcTop.Fill.Color    := Styles.LyTopAndButtom;
+  RcButtom.Fill.Color := Styles.LyTopAndButtom;
+  RcBody.Fill.Color   := Styles.LyBody;
+  with LbTitle do
+  begin
+    //Text       :=  Styles.LbTitleText;
+    FontColor  :=  Styles.LbColor;
+    Font.Size  :=  Styles.LbFontSize;
+  end;
+end;
+
+end.

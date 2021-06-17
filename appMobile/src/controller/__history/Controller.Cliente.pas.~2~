@@ -1,0 +1,11 @@
+unit Controller.Cliente;
+
+interface
+  procedure Registry;
+implementation
+
+procedure Registry;
+begin
+  THorse.Get('/User');
+end;
+end.

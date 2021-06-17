@@ -1,0 +1,38 @@
+inherited frmLogin_Windows: TfrmLogin_Windows
+  DesignerMasterStyle = 3
+  inherited TabControl: TTabControl
+    Sizes = (
+      300s
+      480s
+      300s
+      480s)
+    inherited TabLogin: TTabItem
+      ExplicitSize.cx = 150.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited LyClient: TLayout
+        inherited RcBody: TRectangle
+          inherited LyEdtLogin: TLayout
+            inherited RcEdtLogin: TRectangle
+              inherited EdtLogin: TEdit
+                Size.Height = 48.000000000000000000
+              end
+            end
+          end
+          inherited LyEdtSenha: TLayout
+            inherited RcEdtSenha: TRectangle
+              inherited EdtSenha: TEdit
+                Anchors = [akTop, akRight, akBottom]
+                Opacity = 0.000000000000000000
+                Size.Height = 48.000000000000000000
+              end
+            end
+          end
+        end
+      end
+    end
+    inherited TabCadastro: TTabItem
+      ExplicitSize.cx = 150.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+    end
+  end
+end

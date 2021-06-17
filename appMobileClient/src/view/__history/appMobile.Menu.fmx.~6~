@@ -1,0 +1,93 @@
+object frmMenu: TfrmMenu
+  Left = 0
+  Top = 0
+  ClientHeight = 464
+  ClientWidth = 276
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object LyButtom: TLayout
+    Align = Bottom
+    Position.Y = 414.000000000000000000
+    Size.Width = 276.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object RcButtom: TRectangle
+      Align = Client
+      ClipParent = True
+      Size.Width = 276.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+  end
+  object LyClient: TLayout
+    Align = Client
+    Size.Width = 276.000000000000000000
+    Size.Height = 364.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object RcBody: TRectangle
+      Align = Client
+      Size.Width = 276.000000000000000000
+      Size.Height = 364.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+  end
+  object LyTop: TLayout
+    Align = Top
+    Size.Width = 276.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object RcTop: TRectangle
+      Align = Client
+      HitTest = False
+      Size.Width = 276.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object Image1: TImage
+        MultiResBitmap.Height = 32
+        MultiResBitmap.Width = 32
+        MultiResBitmap = <
+          item
+            Width = 32
+            Height = 32
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+              F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              00C4494441545847ED95310AC240104577562CC5C6D6937805C1D64230A5C7F0
+              20420A0B0FE025F41C966924ADB8EB1B5150EC672C2610324CF3FEBE851F29A5
+              EC524A8D880CF89A3DB5D63BB05618AE0C6333F20748D9828105BBA5938183C7
+              C1831906C2C09701ED810D9B353D30B4744309DD60B61AA0671859C2DF2C42F4
+              5AC55BDE154B310E51E1ED8D99810B0361E0D78016D18CF59C3232ED01BA477B
+              E0A8013AD8138FDB214397019F3DE02FE6E9A91D0B538F9F51CEF9E278F84087
+              8130F027061EB2C04B4285D190F70000000049454E44AE426082}
+            FileName = 'C:\appMobileClient02\Imgs\menu.png'
+          end>
+        Align = Left
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 50.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object LbTitle: TLabel
+        Align = Center
+        StyledSettings = [Family, Size, Style]
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.HorzAlign = Center
+        TabOrder = 1
+      end
+    end
+  end
+end

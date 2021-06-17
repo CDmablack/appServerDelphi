@@ -1,0 +1,14 @@
+unit Controller.Cliente;
+
+interface
+  procedure Registry;
+implementation
+
+uses
+    Horse;
+
+procedure Registry;
+begin
+  THorse.Get('/User');
+end;
+end.

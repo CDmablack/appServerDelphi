@@ -1,0 +1,5 @@
+object Service: TService
+  OldCreateOrder = False
+  Height = 119
+  Width = 216
+end

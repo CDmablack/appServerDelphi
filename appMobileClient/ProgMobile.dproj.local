@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/04/15 17:51:44.000.853,=C:\Users\BlackSheep\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/04/15 17:52:33.000.519,=C:\Users\BlackSheep\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/04/15 17:52:53.000.986,=C:\Users\BlackSheep\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/04/16 17:05:50.000.358,=C:\Users\BlackSheep\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/06/08 10:32:01.000.965,=C:\Users\BlackSheep\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/06/08 10:34:26.000.510,C:\appMobileClient02\src\view\appMobile.Login.pas=C:\Users\BlackSheep\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/06/08 10:34:26.000.510,C:\appMobileClient02\src\view\appMobile.Login.fmx=C:\Users\BlackSheep\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2021/06/08 10:35:28.000.495,C:\appMobileClient02\ProgMobile.dproj=C:\Users\BlackSheep\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/06/08 10:42:10.000.658,=C:\appMobileClient02\Unit1.pas</Transaction>
+    <Transaction>2021/06/08 10:42:38.000.667,C:\appMobileClient02\src\style\Style.Login.pas=C:\appMobileClient02\Unit1.pas</Transaction>
+    <Transaction>2021/06/09 11:26:41.000.388,=C:\appMobileClient02\Unit1.pas</Transaction>
+    <Transaction>2021/06/09 11:28:22.000.817,C:\appMobileClient02\src\view\appMobile.Menu.pas=C:\appMobileClient02\Unit1.pas</Transaction>
+    <Transaction>2021/06/09 11:28:22.000.817,C:\appMobileClient02\src\view\appMobile.Menu.fmx=C:\appMobileClient02\Unit1.fmx</Transaction>
+    <Transaction>2021/06/11 09:22:53.000.729,=C:\appMobileClient02\Unit1.pas</Transaction>
+    <Transaction>2021/06/11 09:24:23.000.740,C:\appMobileClient02\src\service\service.users.dfm=C:\appMobileClient02\Unit1.dfm</Transaction>
+    <Transaction>2021/06/11 09:24:23.000.740,C:\appMobileClient02\src\service\service.users.pas=C:\appMobileClient02\Unit1.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

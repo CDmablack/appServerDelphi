@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/04/15 17:51:44.000.853,=C:\Users\BlackSheep\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/04/15 17:52:33.000.519,=C:\Users\BlackSheep\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/04/15 17:52:53.000.986,=C:\Users\BlackSheep\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/04/16 17:05:50.000.358,=C:\Users\BlackSheep\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/06/04 16:30:58.000.667,C:\Users\BlackSheep\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\appMobile02\Server.dproj</Transaction>
+    <Transaction>2021/06/04 16:43:58.000.707,=C:\appMobile02\Unit1.pas</Transaction>
+    <Transaction>2021/06/04 16:47:17.000.152,C:\appMobile02\Unit1.pas=C:\appMobile02\src\controller\Controller.Cliente.pas</Transaction>
+    <Transaction>2021/06/04 16:54:32.000.079,=C:\appMobile02\Unit1.pas</Transaction>
+    <Transaction>2021/06/04 16:58:01.000.387,C:\appMobile02\Unit1.dfm=C:\appMobile02\src\sevices\Services.SeviceUser.dfm</Transaction>
+    <Transaction>2021/06/04 16:58:01.000.387,C:\appMobile02\Unit1.pas=C:\appMobile02\src\sevices\Services.SeviceUser.pas</Transaction>
+    <Transaction>2021/06/04 16:58:29.000.625,C:\appMobile02\src\controller\Controller.Cliente.pas=C:\appMobile02\src\controller\Controller.ControllerUser.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

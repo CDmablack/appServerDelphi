@@ -1,0 +1,15 @@
+program ProgMobile;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  appMobile.Login in 'src\view\appMobile.Login.pas' {frmLogin},
+  Style.Login in 'src\style\Style.Login.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TfrmLogin, frmLogin);
+  Application.Run;
+end.

@@ -1,0 +1,57 @@
+unit service.users;
+
+interface
+
+uses
+  System.SysUtils,
+  System.Classes,
+  FireDAC.Stan.Intf,
+  FireDAC.Stan.Option,
+  FireDAC.Stan.Param,
+  FireDAC.Stan.Error,
+  FireDAC.DatS,
+  FireDAC.Phys.Intf,
+  FireDAC.DApt.Intf,
+  Data.DB,
+  FireDAC.Comp.DataSet,
+  FireDAC.Comp.Client,
+  DataSet.Serialize;
+
+type
+  Tt = class(TDataModule)
+    FDMQryUsers: TFDMemTable;
+    FDMQryUsersCOD_USER: TIntegerField;
+    FDMQryUsersNOME_USER: TStringField;
+    FDMQryUsersLOGIN_USER: TStringField;
+    FDMQryUsersSENHA_USER: TStringField;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure ListUser;
+  end;
+
+implementation
+
+uses
+  RESTRequest4D, appMobile.Login;
+
+{%CLASSGROUP 'FMX.Controls.TControl'}
+
+{$R *.dfm}
+
+procedure Tt.ListUser(const AId: string);
+var
+  LResponse : IResponse;
+begin
+  LResponse := TRequest.New
+    .BaseURL('http://localhost:9000')
+    .Resource('users')
+    .ResourceSuffix(AId)
+    .Get;
+  if not (LResponse.StatusCode = 200) then
+    raise Exception.Create(LResponse.JSONValue.GetValue<string>('error'));
+
+end;
+
+end.
